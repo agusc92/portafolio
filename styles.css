@@ -1,0 +1,86 @@
+:root{
+    --negro:#201e1e;
+    --claro:#7e766a;
+    
+}
+body{
+    background-color: rgb(250, 253, 253);
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.flex_column{
+    display:flex;
+    flex-direction: column;
+}
+.back_white{
+    background-color: var(--claro);
+}
+.teclado div.barra{
+    width:55px
+}
+.cabecera-logo{
+    align-items: center;
+    
+}
+.cabecera-contenedor{
+    align-items: center;
+    background-color: aquamarine;
+    border: solid 1px black;
+    padding-bottom: 15px;
+}
+.cabecera-barranavegacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7e766a;
+    padding: 5px;
+}
+.boton-barranavegacion{
+    font-size: 1.5em;
+    background-color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+}
+.monitor{
+    box-sizing: border-box;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 100px 0 0 0;
+    border: 7px solid var(--claro);
+    width:250px;
+    height: 150px;
+    padding: 8px 37px 8px 37px;
+}
+
+.monitor div{ 
+    height: 0;
+    border: 1px dashed var(--claro);
+}
+.monitor div:first-child{
+    align-self: center;
+    border: 1px solid var(--claro);
+    width: 50%;
+    height: 40%;
+}
+.teclado{
+    margin-top: 30px;
+    border: 3px solid var(--claro);
+    padding: 1%;
+}
+
+.teclado>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.teclado>div>div{
+    flex-wrap:nowrap;
+    border: 1px solid var(--claro);
+    margin: 2px;
+    height: 13px;
+    width: 13px;
+}
+.teclado div.barra{
+    width:55px
+}
