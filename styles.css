@@ -3,6 +3,7 @@
     --claro:#7e766a;
     
 }
+/* estructura general */
 body{
     background-color: rgb(250, 253, 253);
 }
@@ -17,30 +18,17 @@ h1{
 .back_white{
     background-color: var(--claro);
 }
-.teclado div.barra{
-    width:55px
-}
-.cabecera-logo{
-    align-items: center;
-    
-}
+/* header y logo */
 .cabecera-contenedor{
     align-items: center;
     background-color: aquamarine;
     border: solid 1px black;
     padding-bottom: 15px;
 }
-.cabecera-barranavegacion{
-    display: flex;
-    justify-content: space-around;
-    background-color: #7e766a;
-    padding: 5px;
-}
-.boton-barranavegacion{
-    font-size: 1.5em;
-    background-color: aliceblue;
-    padding: 5px;
-    cursor: pointer;
+
+.cabecera-logo{
+    align-items: center;
+    
 }
 .monitor{
     box-sizing: border-box;
@@ -52,7 +40,6 @@ h1{
     height: 150px;
     padding: 8px 37px 8px 37px;
 }
-
 .monitor div{ 
     height: 0;
     border: 1px dashed var(--claro);
@@ -68,7 +55,9 @@ h1{
     border: 3px solid var(--claro);
     padding: 1%;
 }
-
+.teclado div.barra{
+    width:55px
+}
 .teclado>div{
     display: flex;
     justify-content: space-between;
@@ -81,6 +70,39 @@ h1{
     height: 13px;
     width: 13px;
 }
-.teclado div.barra{
-    width:55px
+
+/* barra de navegacion */
+
+.cabecera-barranavegacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7e766a;
+    padding: 5px;
 }
+.boton-barranavegacion{
+    font-size: 1.5em;
+    background-color: aliceblue;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*arranca el main */
+
+
+ /* .contenedorPublicidad{
+    width: 100%;
+    height: 20px;
+    background-color: aquamarine;
+    border: solid 1px green;
+} */
+.contenedorPagina{
+    border: solid 1px black;
+    background-color: #aa7f3e;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+/* contenedor de la pagina */
